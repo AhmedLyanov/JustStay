@@ -1,0 +1,38 @@
+.main_container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-part-1 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 750;
+}
+
+.logo-part-2 {
+  color: #ff8d41;
+  font-family: sans-serif;
+  font-weight: 750;
+}
+
+.container__buttons_nav {
+  display: flex;
+  gap: 24px;
+}
+.button__nav_text {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.text__exit_header {
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: sans-serif;
+}

@@ -1,0 +1,81 @@
+.container__banner_box {
+  background-image: url(../../assets/media/HomeScreen.png);
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+  padding: 50px;
+  position: relative;
+}
+
+.container__text_content_welcome_banner {
+  max-width: 630px;
+  width: 100%;
+  position: absolute;
+  left: 50px;
+  display: grid;
+  height: 400px;
+  bottom: 50px;
+}
+
+.text_content_welcome_top {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: block;
+}
+
+.text__content_welcome_center {
+  font-size: 65px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #ffffff;
+  line-height: 1.2;
+  display: grid;
+}
+
+.container__welcome_text_part_1,
+.container__welcome_text_part_2 {
+  display: block;
+}
+
+.logotype_text_content {
+  color: #ff8d41;
+}
+.logotype_text_content span:first-child {
+  color: #ffffff;
+}
+
+.text_content_welcome_bottom {
+  color: #ffffff;
+  font-family: sans-serif;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container__bottom_panel_buttons {
+  display: flex;
+  gap: 8px;
+}
+.container__button_banner {
+  width: 120px;
+  height: 44px;
+}
+
+.container__button_banner:first-child .button__with_bottom_content_banner {
+  background-color: #ff8d41; 
+  border: none;
+}
+
+.button__with_bottom_content_banner {
+  width: 100%;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  height: 100%;
+}
