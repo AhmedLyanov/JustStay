@@ -4,7 +4,7 @@ import constants from "../../constants/constants";
 
 export default function About() {
   return (
-    <section className="section__about_us">
+    <div className="section__about_us">
       <div className="container__title_about_us">
         <h2 className="title_with_short_lines">
           <span>About Us</span>
@@ -79,6 +79,6 @@ export default function About() {
           </div>
         </div>
       </article>
-    </section>
+    </div>
   );
 }

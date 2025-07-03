@@ -1,14 +1,18 @@
-import Banner from "../../components/banner";
+import Header from "../../components/banner";
 import About from "../../components/about";
+import Tape from "../../components/tape-line";
+import OurRooms from "../../components/ourRooms";
+import OurServices from "../../components/ourServices";
+
 export default function HomePage() {
   return (
     <div>
-      <Banner />
+      <Header />
       <main>
-        <div className="container__main_content">
-          <About />
-        </div>
-        
+        <About />
+        <Tape />
+        <OurRooms />
+        <OurServices/>
       </main>
     </div>
   );

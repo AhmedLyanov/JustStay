@@ -1,6 +1,7 @@
 .section__about_us {
   display: grid;
   gap: 115px;
+  margin: 100px 129px 100px 129px;
 }
 .section__about_us .container__history_chapter:nth-of-type(2) {
   flex-direction: row-reverse;

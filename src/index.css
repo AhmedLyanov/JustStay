@@ -4,6 +4,13 @@
   border: 0;
   box-sizing: border-box;
 }
+body{
+  background: #F8F9FB;
+}
 .container__main_content{
-  margin: 100px 129px 100px 129px;
+  margin: 100px 129px 0px 129px;
+}
+
+.container__main_content_tape_line{
+  margin-top: 100px;
 }
