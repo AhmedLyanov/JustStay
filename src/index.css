@@ -4,6 +4,6 @@
   border: 0;
   box-sizing: border-box;
 }
-main{
+.container__main_content{
   margin: 100px 129px 100px 129px;
 }

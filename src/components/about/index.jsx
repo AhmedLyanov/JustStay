@@ -15,29 +15,36 @@ export default function About() {
         <div className="container__image_about">
           <img src={history} alt="JustStay history" />
         </div>
-        <div className="container__text_about">
-          <div className="title_history_section">
-            {" "}
-            History of{"  "}
-            <span className="logotype_text_content_black">
-              <span>{constants.LOGO.PART_1}</span>
-              <span>{constants.LOGO.PART_2}</span>
-            </span>
-          </div>
+        <div className="container__text_about__information">
+          <div className="container__text_about">
+            <div className="title_history_section">
+              {" "}
+              History of{"  "}
+              <span className="logotype_text_content_black">
+                <span>{constants.LOGO.PART_1}</span>
+                <span>{constants.LOGO.PART_2}</span>
+              </span>
+            </div>
 
-          <div className="container__description_history">
-            <p className="history__description_main">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Exercitationem repellendus, dicta facilis eligendi voluptate sequi
-              laudantium quibusdam, cum dolorum nostrum dignissimos non nobis
-              corporis, voluptatibus illo facere veniam neque atque.
-            </p>
-            <p className="history__description_bottom">
-              Autem temporibus, neque voluptas officiis molestiae. At vero eos
-              et accusamus et iusto odio dignissimos ducimus. But hey, at least
-              you’re not stuck in traffic, or worse, listening to a never-ending
-              sales pitch, right?
-            </p>
+            <div className="container__description_history">
+              <p className="history__description_main">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Exercitationem repellendus, dicta facilis eligendi voluptate
+                sequi laudantium quibusdam, cum dolorum nostrum dignissimos non
+                nobis corporis, voluptatibus illo facere veniam neque atque.
+              </p>
+              <p className="history__description_bottom">
+                Autem temporibus, neque voluptas officiis molestiae. At vero eos
+                et accusamus et iusto odio dignissimos ducimus. But hey, at
+                least you’re not stuck in traffic, or worse, listening to a
+                never-ending sales pitch, right?
+              </p>
+            </div>
+          </div>
+          <div className="button_continer_test">
+            <div className="container__button_read_history">
+              <button className="buttOn__read_history">Read More</button>
+            </div>
           </div>
         </div>
       </article>
@@ -46,18 +53,29 @@ export default function About() {
         <div className="container__image_about">
           <img src={history} alt="JustStay history" />
         </div>
-        <div className="container__text_about">
-          <div className="title_history_section">
-            <span>Why choose us?</span>
-          </div>
+        <div className="container__text_about__information">
+          <div className="container__text_about">
+            <div className="title_history_section">
+              {" "}
+             Why Choose us?
+            </div>
 
-          <div className="container__description_history">
-            <p className="history__description_bottom">
-              Autem temporibus, neque voluptas officiis molestiae. At vero eos
-              et accusamus et iusto odio dignissimos ducimus. But hey, at least
-              you’re not stuck in traffic, or worse, listening to a never-ending
-              sales pitch, right?
-            </p>
+            <div className="container__description_history">
+              <p className="history__description_main">
+              
+              </p>
+              <p className="history__description_bottom">
+                Autem temporibus, neque voluptas officiis molestiae. At vero eos
+                et accusamus et iusto odio dignissimos ducimus. But hey, at
+                least you’re not stuck in traffic, or worse, listening to a
+                never-ending sales pitch, right?
+              </p>
+            </div>
+          </div>
+          <div className="button_continer_test">
+            <div className="container__button_read_history">
+              <button className="buttOn__read_history">Read More</button>
+            </div>
           </div>
         </div>
       </article>
