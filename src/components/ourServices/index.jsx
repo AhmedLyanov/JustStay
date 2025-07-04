@@ -33,7 +33,7 @@ export default function OurServices() {
       description: "Figma ipsum component variant main layer.",
     },
     {
-      logotype: "",
+      logotype: {gym},
       title: "GYM & Yoga",
       description: "Figma ipsum component variant main layer.",
     },
@@ -54,7 +54,7 @@ export default function OurServices() {
           <div className="container__card_service">
             <div className="container__service_card_information">
               <div className="image__service_logotype">
-                <img src={service.logotype} alt="" />
+                <img src={service.logotype} alt="Service Logotype" />
               </div>
               <div className="container_service_text_data">
                 <div className="title__service">
