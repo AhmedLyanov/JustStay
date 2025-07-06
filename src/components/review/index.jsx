@@ -1,25 +1,24 @@
 import './style.css'
 import comma from '../../assets/media/quote-down.svg'
-export default function Preview(){
-    const peopleSays = [
-        {name:"Rita", surname: "O'Conner", email: "Sandrine.Luettgen@gmail.com", description: "Nobis voluptatem magni doloribus voluptate culpa dolor est neque "},
-        {name:"Woodrow", surname: "McCullough", email: "Idell.Hoppe86@yahoo.com", description: "Nobis voluptatem magni doloribus voluptate culpa dolor est neque "},
-        {name:"Veronica ", surname: "Hessel", email: "Valentin.Homenick@gmail.com", description: "Nobis voluptatem magni doloribus voluptate culpa dolor est neque "},
-        {name:"George", surname: "Heaney", email: "Liliana.Howell85@hotmail.com", description: "Nobis voluptatem magni doloribus voluptate culpa dolor est neque "}
-    ]
+import constants from "../../constants/constants";
 
+export default function Preview(){
     return(
         <section className="preview__container">
             <div className="title__preview_container-text">
                 <div className="contaner__subtitle_preview">
-                    <span className="subtitle__preview_container-span">Testimonial</span>
+                    <span className="subtitle__preview_container-span">
+                        {constants.TESTIMONIALS.SUBTITLE}
+                    </span>
                 </div>
                 
-                <h1 className="title__preview_container">What People Say?</h1>
+                <h1 className="title__preview_container">
+                    {constants.TESTIMONIALS.TITLE}
+                </h1>
             </div>
             <div className="container__reviews-cards">
-                {peopleSays.map((review, index) => (
-                    <article className="card__review">
+                {constants.TESTIMONIALS.REVIEWS.map((review, index) => (
+                    <article key={index} className="card__review">
                     <div className="container__information-review">
                         <div className="review__logo-svg">
                             <picture>

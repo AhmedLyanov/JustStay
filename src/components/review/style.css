@@ -72,6 +72,8 @@
   font-family: sans-serif;
   color: #424242;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .email__review_sender {

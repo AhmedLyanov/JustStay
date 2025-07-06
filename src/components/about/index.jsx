@@ -7,7 +7,7 @@ export default function About() {
     <div className="section__about_us">
       <div className="container__title_about_us">
         <h2 className="title_with_short_lines">
-          <span>About Us</span>
+          <span>{constants.ABOUT.TITLE}</span>
         </h2>
       </div>
 
@@ -18,8 +18,7 @@ export default function About() {
         <div className="container__text_about__information">
           <div className="container__text_about">
             <div className="title_history_section">
-              {" "}
-              History of{"  "}
+              {constants.ABOUT.HISTORY_TITLE}{"  "}
               <span className="logotype_text_content_black">
                 <span>{constants.LOGO.PART_1}</span>
                 <span>{constants.LOGO.PART_2}</span>
@@ -28,22 +27,18 @@ export default function About() {
 
             <div className="container__description_history">
               <p className="history__description_main">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Exercitationem repellendus, dicta facilis eligendi voluptate
-                sequi laudantium quibusdam, cum dolorum nostrum dignissimos non
-                nobis corporis, voluptatibus illo facere veniam neque atque.
+                {constants.ABOUT.HISTORY_DESCRIPTION_MAIN}
               </p>
               <p className="history__description_bottom">
-                Autem temporibus, neque voluptas officiis molestiae. At vero eos
-                et accusamus et iusto odio dignissimos ducimus. But hey, at
-                least you’re not stuck in traffic, or worse, listening to a
-                never-ending sales pitch, right?
+                {constants.ABOUT.HISTORY_DESCRIPTION_BOTTOM}
               </p>
             </div>
           </div>
           <div className="button_continer_test">
             <div className="container__button_read_history">
-              <button className="buttOn__read_history">Read More</button>
+              <button className="buttOn__read_history">
+                {constants.BUTTONS.READ_MORE}
+              </button>
             </div>
           </div>
         </div>
@@ -56,25 +51,23 @@ export default function About() {
         <div className="container__text_about__information">
           <div className="container__text_about">
             <div className="title_history_section">
-              {" "}
-             Why Choose us?
+              {constants.ABOUT.WHY_CHOOSE_US_TITLE}
             </div>
 
             <div className="container__description_history">
               <p className="history__description_main">
-              
+                {constants.ABOUT.WHY_CHOOSE_US_MAIN}
               </p>
               <p className="history__description_bottom">
-                Autem temporibus, neque voluptas officiis molestiae. At vero eos
-                et accusamus et iusto odio dignissimos ducimus. But hey, at
-                least you’re not stuck in traffic, or worse, listening to a
-                never-ending sales pitch, right?
+                {constants.ABOUT.WHY_CHOOSE_US_BOTTOM}
               </p>
             </div>
           </div>
           <div className="button_continer_test">
             <div className="container__button_read_history">
-              <button className="buttOn__read_history">Read More</button>
+              <button className="buttOn__read_history">
+                {constants.BUTTONS.READ_MORE}
+              </button>
             </div>
           </div>
         </div>
