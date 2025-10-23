@@ -11,10 +11,6 @@ footer{
     gap: 70px;
 }
 
-.container__copyright_company{
-    display: grid;
-    gap: 24px;
-}
 
 .name__company{
     color: #424242;
@@ -24,6 +20,7 @@ footer{
     line-height: 120%;
 }
 .container__conclusion_info-footer{
+    margin-top: 24px;
     display: grid;
     gap: 16px;
 }
@@ -62,9 +59,10 @@ footer{
     margin-bottom: 24px;
 
 }
-.navigation__footer-main ul li{
+.navigation__footer-main ul li a{
     color: #9E9E9E;
     line-height: 140%;
+    text-decoration: none;
     font-size: 12px;
     font-family: sans-serif;
     font-weight: bold;

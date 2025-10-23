@@ -3,10 +3,11 @@ import citySvg from "../../assets/media/city.png";
 import stateSvg from "../../assets/media/state.png";
 import food from "../../assets/media/food.png";
 import event from "../../assets/media/event.png";
+import spa from '../../assets/media/spa.png'
 import gym from "../../assets/media/gym.png";
 import constants from "../../constants/constants";
 
-const serviceIcons = [citySvg, stateSvg, food, event, gym, gym];
+const serviceIcons = [citySvg, stateSvg, food, spa, event, gym];
 
 export default function OurServices() {
   return (
@@ -27,7 +28,11 @@ export default function OurServices() {
           <div key={index} className="container__card_service">
             <div className="container__service_card_information">
               <div className="image__service_logotype">
-                <img src={serviceIcons[index]} alt="Service Logotype" />
+                <img 
+                  src={serviceIcons[index]} 
+                  alt="Service Logotype" 
+                  className="service_icon"
+                />
               </div>
               <div className="container_service_text_data">
                 <div className="title__service">

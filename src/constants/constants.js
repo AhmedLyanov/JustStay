@@ -1,11 +1,14 @@
+import room1 from '../assets/media/Image.png';
+import room2 from '../assets/media/Image2.png';
+import room3 from '../assets/media/Image3.png';
 export default {
-  // Логотип
+ 
   LOGO: {
     PART_1: "Just",
     PART_2: "Stay",
   },
 
-  // Навигация
+  
   NAV: {
     HOME: "Home",
     ABOUT: "About",
@@ -14,7 +17,7 @@ export default {
     CONTACT: "Contact",
   },
 
-  // Баннер на главной странице
+
   BANNER: {
     WELCOME_TO: "Welcome To",
     LOCATION: "Ahmedabad India",
@@ -22,7 +25,7 @@ export default {
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam maxime praesentium Why did the scarecrow win an award? Because he was outstanding in his field. Lorem ipsum",
   },
 
-  // Кнопки
+  
   BUTTONS: {
     LOGOUT: "Logout",
     BOOK_NOW: "Book now",
@@ -30,7 +33,6 @@ export default {
     READ_MORE: "Read More",
   },
 
-  // About Us section
   ABOUT: {
     TITLE: "About Us",
     HISTORY_TITLE: "History of",
@@ -65,16 +67,19 @@ export default {
     SUBTITLE: "Explore Our Rooms",
     ROOMS_LIST: [
       {
+        image: room1,
         title: "Junior Suite",
         price: "$150.00 / per night",
         description: "Comfortable and cozy room perfect for short stays",
       },
       {
+        image: room2,
         title: "Deluxe Room",
         price: "$200.00 / per night",
         description: "Spacious room with premium amenities",
       },
       {
+        image: room3,
         title: "Executive Suite",
         price: "$250.00 / per night",
         description: "Luxurious suite with extra space and services",
@@ -82,7 +87,7 @@ export default {
     ],
   },
 
-  // Our Services section
+  
   SERVICES: {
     TITLE: "Our Services",
     SUBTITLE: "Explore Our Services",
@@ -114,7 +119,7 @@ export default {
     ],
   },
 
-  // Testimonials section
+  
   TESTIMONIALS: {
     TITLE: "What People Say?",
     SUBTITLE: "Testimonial",
@@ -150,7 +155,7 @@ export default {
     ],
   },
 
-  // Stats Tape section
+  
   STATS: {
     ITEMS: [
       {

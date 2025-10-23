@@ -1,5 +1,5 @@
 import "./style.css";
-import history from "../../assets/media/hsitroy_2.jpg";
+import history from "../../assets/media/history.png";
 import constants from "../../constants/constants";
 
 export default function About() {

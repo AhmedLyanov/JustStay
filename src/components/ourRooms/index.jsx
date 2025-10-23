@@ -1,5 +1,4 @@
 import "./style.css";
-import cardImage from "../../assets/media/test.jpg";
 import constants from "../../constants/constants";
 
 export default function OurRooms() {
@@ -22,7 +21,7 @@ export default function OurRooms() {
           <article key={index} className="room_card">
             <div className="room_card__image-container">
               <img
-                src={cardImage}
+                src={room.image}
                 alt={`${room.title} Room`}
                 loading="lazy"
                 className="room_card__image"
