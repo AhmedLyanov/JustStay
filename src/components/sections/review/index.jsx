@@ -1,6 +1,6 @@
 import './style.css';
-import comma from '../../assets/media/quote-down.svg';
-import constants from '../../constants/constants';
+import comma from '../../../assets/media/quote-down.svg';
+import constants from '../../../constants/constants';
 
 export default function Preview() {
   return (

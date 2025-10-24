@@ -1,11 +1,11 @@
 import './style.css';
-import citySvg from '../../assets/media/city.png';
-import stateSvg from '../../assets/media/state.png';
-import food from '../../assets/media/food.png';
-import event from '../../assets/media/event.png';
-import spa from '../../assets/media/spa.png';
-import gym from '../../assets/media/gym.png';
-import constants from '../../constants/constants';
+import citySvg from '../../../assets/media/city.png';
+import stateSvg from '../../../assets/media/state.png';
+import food from '../../../assets/media/food.png';
+import event from '../../../assets/media/event.png';
+import spa from '../../../assets/media/spa.png';
+import gym from '../../../assets/media/gym.png';
+import constants from '../../../constants/constants';
 
 const serviceIcons = [citySvg, stateSvg, food, spa, event, gym];
 
