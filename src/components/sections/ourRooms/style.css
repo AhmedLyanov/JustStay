@@ -1,9 +1,7 @@
-
 .container__our_rooms {
   font-family: sans-serif;
   margin: 100px 157px 100px 157px;
 }
-
 
 .container__title_our_rooms {
   display: flex;
@@ -12,14 +10,14 @@
 }
 
 .title__our_rooms {
-  display: flex; 
+  display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .title__our_rooms::before,
 .title__our_rooms::after {
-  content: "";
+  content: '';
   flex: 0 0 30px;
   height: 3px;
   background-color: #616161;
@@ -44,10 +42,6 @@
   font-weight: bold;
 }
 
-
-
-
-
 .container__list_of_cards_rooms {
   display: flex;
   justify-content: center;
@@ -57,14 +51,16 @@
 .room_card {
   background: #ffffff;
   width: 380px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-radius: 4px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .room_card:hover {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .room_card__image-container {
@@ -84,7 +80,6 @@
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-
 
 .room_card__info {
   padding: 16px;

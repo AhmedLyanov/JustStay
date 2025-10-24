@@ -1,5 +1,5 @@
-import "./style.css";
-import constants from "../../constants/constants";
+import './style.css';
+import constants from '../../../constants/constants';
 
 export default function Header() {
   return (
@@ -34,7 +34,9 @@ export default function Header() {
         </div>
         <div className="container__button_exit">
           <div className="container__exit_text_header">
-            <span className="text__exit_header">{constants.BUTTONS.LOGOUT}</span>
+            <span className="text__exit_header">
+              {constants.BUTTONS.LOGOUT}
+            </span>
           </div>
         </div>
       </div>

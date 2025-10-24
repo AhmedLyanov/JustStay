@@ -17,7 +17,7 @@
 
 .title__our_rooms::before,
 .title__our_rooms::after {
-  content: "";
+  content: '';
   flex: 0 0 30px;
   height: 3px;
   background-color: #616161;
@@ -59,7 +59,7 @@
 }
 
 .container__card_service:hover {
-  background: #FF8D41;
+  background: #ff8d41;
   color: #ffffff;
 }
 

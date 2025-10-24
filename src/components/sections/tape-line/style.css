@@ -1,0 +1,27 @@
+.container__tape_line {
+  width: 100%;
+  height: 119px;
+  background: #ff8d41;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container__element_tape_counter {
+  display: grid;
+  justify-items: center;
+}
+
+.number_data_tape {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.text_information_tape {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 500;
+}

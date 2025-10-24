@@ -1,5 +1,5 @@
 .container__banner_box {
-  background-image: url(../../assets/media/HomeScreen.png);
+  background-image: url(../../../assets/media/HomeScreen.png);
   background-position: center;
   background-size: cover;
   height: 850px;
@@ -65,8 +65,14 @@
 }
 
 .container__button_banner:first-child .button__with_bottom_content_banner {
-  background-color: #ff8d41; 
+  background-color: #ff8d41;
   border: none;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+  }
 }
 
 .button__with_bottom_content_banner {
@@ -78,4 +84,9 @@
   background: transparent;
   border: 2px solid #ffffff;
   height: 100%;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #ff8d41;
+  }
 }

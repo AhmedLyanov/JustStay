@@ -1,5 +1,5 @@
-import "./style.css";
-import constants from "../../constants/constants";
+import './style.css';
+import constants from '../../constants/constants';
 
 export default function Footer() {
   return (

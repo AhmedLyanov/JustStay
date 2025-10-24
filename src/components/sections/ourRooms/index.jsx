@@ -1,5 +1,5 @@
-import "./style.css";
-import constants from "../../constants/constants";
+import './style.css';
+import constants from '../../constants/constants';
 
 export default function OurRooms() {
   return (
@@ -9,13 +9,13 @@ export default function OurRooms() {
           <span>{constants.ROOMS.TITLE}</span>
         </h2>
       </div>
-      
+
       <div className="main_title__our_rooms">
         <span className="text__main_title_our_rooms">
           {constants.ROOMS.SUBTITLE}
         </span>
       </div>
-      
+
       <div className="container__list_of_cards_rooms">
         {constants.ROOMS.ROOMS_LIST.map((room, index) => (
           <article key={index} className="room_card">

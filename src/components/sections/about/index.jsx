@@ -1,6 +1,6 @@
-import "./style.css";
-import history from "../../assets/media/history.png";
-import constants from "../../constants/constants";
+import './style.css';
+import history from '../../../assets/media/history.png';
+import constants from '../../../constants/constants';
 
 export default function About() {
   return (
@@ -18,7 +18,8 @@ export default function About() {
         <div className="container__text_about__information">
           <div className="container__text_about">
             <div className="title_history_section">
-              {constants.ABOUT.HISTORY_TITLE}{"  "}
+              {constants.ABOUT.HISTORY_TITLE}
+              {'  '}
               <span className="logotype_text_content_black">
                 <span>{constants.LOGO.PART_1}</span>
                 <span>{constants.LOGO.PART_2}</span>

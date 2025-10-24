@@ -19,7 +19,7 @@
 
 .title_with_short_lines::before,
 .title_with_short_lines::after {
-  content: "";
+  content: '';
   flex: 0 0 30px;
   height: 3px;
   background-color: #616161;
@@ -41,10 +41,9 @@
   width: 100%;
 }
 
-.container__history_chapter:nth-child(3){
+.container__history_chapter:nth-child(3) {
   flex-direction: row-reverse;
 }
-
 
 .container__text_about__information {
   display: flex;
@@ -158,72 +157,69 @@
   font-size: 14px;
 }
 
-
 @media (min-width: 768px) {
   .section__about_us {
     margin: 80px 40px;
     gap: 100px;
   }
-  
+
   .container__history_chapter {
     gap: 60px;
   }
-  
+
   .title_history_section {
     font-size: 32px;
     text-align: left;
   }
-  
+
   .history__description_main,
   .history__description_bottom {
     text-align: left;
   }
-  
+
   .button_container {
     justify-content: flex-start;
   }
 }
-
 
 @media (min-width: 1024px) {
   .section__about_us {
     margin: 100px 129px;
     gap: 115px;
   }
-  
+
   .container__history_chapter {
     flex-direction: row;
     justify-content: space-between;
     padding-inline: 0;
     gap: 60px;
   }
-  
+
   .container__history_chapter--reversed {
     flex-direction: row-reverse;
   }
-  
+
   .container__text_about__information {
     max-width: 650px;
     align-content: space-around;
   }
-  
+
   .container__image_about {
     width: 520px;
     height: 360px;
     padding: 16px;
     border-radius: 50px;
   }
-  
+
   .container__image_about img {
     border-radius: 50px;
   }
-  
+
   .title_history_section {
     font-size: 40px;
     text-align: left;
   }
 }
-
 
 @media (min-width: 1440px) {
   .container__history_chapter {
@@ -231,27 +227,26 @@
   }
 }
 
-
 @media (max-width: 375px) {
   .section__about_us {
     margin: 40px 16px;
     gap: 60px;
     padding: 0;
   }
-  
+
   .title_history_section {
     font-size: 24px;
   }
-  
+
   .container__image_about {
     padding: 8px;
     border-radius: 20px;
   }
-  
+
   .container__image_about img {
     border-radius: 20px;
   }
-  
+
   .history__description_main,
   .history__description_bottom {
     font-size: 14px;

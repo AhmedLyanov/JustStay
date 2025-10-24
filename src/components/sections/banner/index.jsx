@@ -1,6 +1,6 @@
-import Header from "../header";
-import "./style.css";
-import constants from "../../constants/constants";
+import Header from '../../layout/header';
+import './style.css';
+import constants from '../../../constants/constants';
 
 export default function Banner() {
   return (
@@ -13,7 +13,7 @@ export default function Banner() {
           </span>
           <div className="text__content_welcome_center">
             <div className="container__welcome_text_part_1">
-              Hotel{" "}
+              Hotel{' '}
               <span className="logotype_text_content">
                 <span>{constants.LOGO.PART_1}</span>
                 <span>{constants.LOGO.PART_2}</span>
